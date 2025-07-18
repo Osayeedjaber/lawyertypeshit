@@ -75,6 +75,35 @@ export default function Hero() {
             </button>
           </motion.div>
 
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8, delay: 1.2 }}
+            className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto"
+          >
+            <motion.div 
+              whileHover={{ scale: 1.05 }}
+              className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20 hover:border-amber-400/50 transition-colors duration-300"
+            >
+              <h3 className="text-2xl font-bold text-amber-400 mb-2">13+</h3>
+              <p className="text-slate-300">Years of Experience</p>
+            </motion.div>
+            <motion.div 
+              whileHover={{ scale: 1.05 }}
+              className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20 hover:border-amber-400/50 transition-colors duration-300"
+            >
+              <h3 className="text-2xl font-bold text-amber-400 mb-2">500+</h3>
+              <p className="text-slate-300">Cases Won</p>
+            </motion.div>
+            <motion.div 
+              whileHover={{ scale: 1.05 }}
+              className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20 hover:border-amber-400/50 transition-colors duration-300"
+            >
+              <h3 className="text-2xl font-bold text-amber-400 mb-2">24/7</h3>
+              <p className="text-slate-300">Legal Support</p>
+            </motion.div>
+          </motion.div>
+
         </div>
       </div>
 
