@@ -22,7 +22,7 @@ const stats = [
   {
     icon: Globe,
     label: 'Legal Areas',
-    value: '6',
+    value: '8',
   },
 ];
 

@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { MapPin, Phone, Mail, Send, Clock, MessageCircle } from 'lucide-react';
+import { MapPin, Phone, Mail, Send, Clock, MessageCircle, Facebook } from 'lucide-react';
 import { useContactForm } from '@/hooks/useContactForm';
 import { initiatePhoneCall, openWhatsApp } from '@/lib/booking';
 import { Toaster } from 'react-hot-toast';
@@ -92,6 +92,17 @@ export default function Contact() {
                     <h4 className="font-semibold text-slate-900 mb-1">WhatsApp</h4>
                     <p className="text-slate-600">+880 1682-181118</p>
                     <p className="text-green-600 text-sm">Click to chat instantly</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4 cursor-pointer hover:bg-blue-50 p-3 rounded-lg transition-colors" onClick={() => window.open('https://www.facebook.com/shahadatlawassociationpage', '_blank')}>
+                  <div className="bg-blue-100 rounded-lg p-3">
+                    <Facebook className="h-6 w-6 text-blue-600" />
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-slate-900 mb-1">Facebook</h4>
+                    <p className="text-slate-600">Shahadat Law Associates</p>
+                    <p className="text-blue-600 text-sm">Follow us for updates</p>
                   </div>
                 </div>
               </div>

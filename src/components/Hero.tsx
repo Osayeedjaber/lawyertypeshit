@@ -49,7 +49,7 @@ export default function Hero() {
             className="mb-8"
           >
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-amber-100 to-amber-200 bg-clip-text text-transparent leading-tight">
-              Md. Shahadat Hossain
+               Md. Shahadat Hossain
             </h1>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -107,7 +107,7 @@ export default function Hero() {
               whileHover={{ scale: 1.05 }}
               className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20 hover:border-amber-400/50 transition-colors duration-300"
             >
-              <h3 className="text-2xl font-bold text-amber-400 mb-2">500+</h3>
+              <h3 className="text-2xl font-bold text-amber-400 mb-2">300+</h3>
               <p className="text-slate-300">Cases Won</p>
             </motion.div>
             <motion.div 

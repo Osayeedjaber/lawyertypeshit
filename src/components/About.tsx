@@ -119,7 +119,7 @@ export default function About() {
                 <div>
                   <h4 className="font-semibold text-slate-900 mb-1">Bar Admission</h4>
                   <p className="text-slate-600">Bangladesh Bar Council</p>
-                  <p className="text-slate-600">Licensed since 2011</p>
+                  <p className="text-slate-600">Licensed since 2013</p>
                 </div>
               </div>
             </div>
