@@ -49,19 +49,8 @@ export default function Hero() {
             className="mb-8"
           >
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-amber-100 to-amber-200 bg-clip-text text-transparent leading-tight">
-              Your Trusted Legal
-              <span className="block bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent">
-                Advocate in Bangladesh
-              </span>
+              Advocate Md. Shahadat Hossain
             </h1>
-            <motion.p 
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.7 }}
-              className="text-xl md:text-2xl text-slate-300 max-w-3xl mx-auto leading-relaxed"
-            >
-              13+ Years of Excellence • 500+ Successful Cases • Trusted by Clients Nationwide
-            </motion.p>
           </motion.div>
 
           <motion.div
@@ -86,34 +75,6 @@ export default function Hero() {
             </button>
           </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 1.2 }}
-            className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto"
-          >
-            <motion.div 
-              whileHover={{ scale: 1.05 }}
-              className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20 hover:border-amber-400/50 transition-colors duration-300"
-            >
-              <h3 className="text-2xl font-bold text-amber-400 mb-2">13+</h3>
-              <p className="text-slate-300">Years of Experience</p>
-            </motion.div>
-            <motion.div 
-              whileHover={{ scale: 1.05 }}
-              className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20 hover:border-amber-400/50 transition-colors duration-300"
-            >
-              <h3 className="text-2xl font-bold text-amber-400 mb-2">500+</h3>
-              <p className="text-slate-300">Cases Won</p>
-            </motion.div>
-            <motion.div 
-              whileHover={{ scale: 1.05 }}
-              className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20 hover:border-amber-400/50 transition-colors duration-300"
-            >
-              <h3 className="text-2xl font-bold text-amber-400 mb-2">24/7</h3>
-              <p className="text-slate-300">Legal Support</p>
-            </motion.div>
-          </motion.div>
         </div>
       </div>
 
