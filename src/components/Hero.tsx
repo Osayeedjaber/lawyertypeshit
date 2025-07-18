@@ -51,6 +51,21 @@ export default function Hero() {
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-amber-100 to-amber-200 bg-clip-text text-transparent leading-tight">
               Advocate Md. Shahadat Hossain
             </h1>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.7 }}
+              className="max-w-2xl mx-auto"
+            >
+              <p className="text-xl md:text-2xl text-slate-300 mb-4 font-light">
+                Expert Legal Advocate & Counselor
+              </p>
+              <p className="text-lg md:text-xl text-slate-400 leading-relaxed">
+                Providing comprehensive legal solutions with 13+ years of experience. 
+                Specializing in civil law, criminal defense, and corporate matters with a 
+                commitment to justice and client satisfaction.
+              </p>
+            </motion.div>
           </motion.div>
 
           <motion.div
