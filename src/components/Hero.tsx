@@ -49,7 +49,7 @@ export default function Hero() {
             className="mb-8"
           >
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-amber-100 to-amber-200 bg-clip-text text-transparent leading-tight">
-              Advocate Md. Shahadat Hossain
+              Md. Shahadat Hossain
             </h1>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
